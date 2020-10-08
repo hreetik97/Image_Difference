@@ -30,17 +30,18 @@ public class Driver {
 
         for (int k = 0; k < image.getHeight(); k++){
             for (int i = 0; i < image.getWidth()-(barrier); i++){
-                */
-/**
-                 * The following chunk of code I cannot even begin to take credit
+
+   * The following chunk of code I cannot even begin to take credit
                  * for. I had to do some research into how to select individual
                  * pixels in an image. The folowing code was something I got from
                  * Alvin Alexanders blog. More can be found at
-                 * http://alvinalexander.com/blog/post/java/getting-rgb-values-for
-                 * -each-pixel-in-image-using-java-bufferedi
-                 *//*
+                 * http://alvinalexander.com/blog/post/java/getting-rgb-values-for-each-pixel-in-image-using-java-bufferedi
 
-                pixel1 = image.getRGB(i,k);
+
+
+                pixel1 = ima
+
+ge.getRGB(i,k);
                 red1 = (pixel1 >> 16) & 0xff;
                 green1 = (pixel1 >> 8) & 0xff;
                 blue1 = (pixel1) & 0xff;
@@ -64,7 +65,7 @@ public class Driver {
                     t.fillRect(i, k, 1, 1);
                 }
                 else if (green1 >= green2 && green2 + 35 >= green1){
-                    t.fillRect(i, k, 1, 1);
+                    t.fillRect(i, k, 1, 1)
                 }
                 //
                 if (blue1 <= blue2 && blue1 + 35 >= blue2){
@@ -83,4 +84,5 @@ public class Driver {
         }
         System.out.println("Process Complete");
     }
-}*/
+}
+*/
